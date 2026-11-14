@@ -17,7 +17,7 @@ const projectDetails = {
     description: "A collection of social media creatives and promotional campaign designs. Add a short brief explaining the audience, objective and design approach for each real project.",
     role: "Graphic design, layout and visual direction",
     tools: "Photoshop · Illustrator",
-    images: ["images/WhatsApp Image 2025-07-14 at 5.50.21 PM.jpeg", "images/social-media-02.jpg", "images/social-media-03.jpg"]
+    images: ["images/Kya aap unme se ek hain-1080-1080.png", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM.jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (1).jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (4).jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (5).jpeg"]
   },
   branding: {
     category: "BRAND IDENTITY",
@@ -25,7 +25,7 @@ const projectDetails = {
     description: "Show the logo, alternate versions, colour palette, typography and real-world applications. Explain the identity problem and the solution.",
     role: "Logo design and brand identity",
     tools: "Illustrator · Photoshop",
-    images: ["images/branding-01.jpg", "images/branding-02.jpg", "images/branding-03.jpg"]
+    images: ["images/Logo-01.png", "images/Shidori-Sweets_1.jpg", "images/egal.png"]
   },
   youtube: {
     category: "DIGITAL DESIGN",
@@ -33,7 +33,7 @@ const projectDetails = {
     description: "A selection of YouTube thumbnail designs. Add a note about the content topic and how the composition, typography and image treatment support the video.",
     role: "Thumbnail design and image compositing",
     tools: "Photoshop",
-    images: ["images/youtube-thumbnail-01.jpg", "images/youtube-thumbnail-02.jpg", "images/youtube-thumbnail-03.jpg"]
+    images: ["images/JczpR0eBnoM-HD.jpg", "images/Kya aap unme se ek hain-1080-1080.png"]
   },
   video: {
     category: "VIDEO EDITING",
@@ -41,8 +41,7 @@ const projectDetails = {
     description: "Present a finished video and a few supporting frames. Include the format, intended platform and the parts you personally handled.",
     role: "Editing, pacing, sound and delivery",
     tools: "Premiere Pro",
-    images: ["images/video-editing-01.jpg", "images/video-editing-02.jpg"],
-    video: "videos/video-editing-showreel.mp4"
+    images: ["images/WhatsApp Image 2025-07-14 at 5.50.21 PM.jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (1).jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (4).jpeg", "images/WhatsApp Image 2025-07-14 at 5.50.21 PM (5).jpeg"]
   },
   motion: {
     category: "MOTION GRAPHICS",
@@ -50,8 +49,7 @@ const projectDetails = {
     description: "Show title animation, transitions, animated graphic elements or short explainers. Add a short explanation of the animation objective.",
     role: "Motion design and animation",
     tools: "After Effects · Premiere Pro",
-    images: ["images/motion-graphics-01.jpg", "images/motion-graphics-02.jpg"],
-    video: "videos/motion-graphics-showreel.mp4"
+    images: ["images/Gaming UI.jpg"]
   },
   editorial: {
     category: "EDITORIAL DESIGN",
@@ -59,7 +57,7 @@ const projectDetails = {
     description: "Show the cover, back cover, selected inside pages and print layout details. Explain the intended readership and visual concept.",
     role: "Cover design and page layout",
     tools: "Photoshop · Illustrator",
-    images: ["images/book-cover-01.jpg", "images/book-cover-02.jpg", "images/book-cover-03.jpg"]
+    images: ["images/A4 Menu Print (1).png", "images/menu card_9-8-21.jpg"]
   }
 };
 
