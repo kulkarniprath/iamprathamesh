@@ -17,7 +17,7 @@ const projectDetails = {
     description: "A collection of social media creatives and promotional campaign designs. Add a short brief explaining the audience, objective and design approach for each real project.",
     role: "Graphic design, layout and visual direction",
     tools: "Photoshop · Illustrator",
-    images: ["images/social-media-01.jpg", "images/social-media-02.jpg", "images/social-media-03.jpg"]
+    images: ["Kya aap unme se ek hain-1080-1080.png", "images/social-media-02.jpg", "images/social-media-03.jpg"]
   },
   branding: {
     category: "BRAND IDENTITY",
