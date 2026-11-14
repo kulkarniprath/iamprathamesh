@@ -88,14 +88,60 @@
       <div class="content">
         <div class="section-heading">
           <h2>Selected <span>work.</span></h2>
-          <p>Project categories featured in my resume. Replace the cards below with your final portfolio images when ready.</p>
+          <p>A selection of graphic design, branding and video projects. Select a project to explore its visuals and details.</p>
         </div>
-        <div class="project-grid">
-          <article class="project-card project-one"><div><span>01</span><h3>3D Modeling</h3><p>3D / Visual Design</p></div></article>
-          <article class="project-card project-two"><div><span>02</span><h3>Logo Design</h3><p>Brand Identity</p></div></article>
-          <article class="project-card project-three"><div><span>03</span><h3>Book Cover</h3><p>Editorial Design</p></div></article>
+
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" type="button" data-filter="all">All work</button>
+          <button class="filter-btn" type="button" data-filter="graphic">Graphic design</button>
+          <button class="filter-btn" type="button" data-filter="branding">Branding</button>
+          <button class="filter-btn" type="button" data-filter="video">Video & motion</button>
         </div>
-        <div class="project-note">Your real project artwork can be added here later without changing the site structure.</div>
+
+        <div class="project-grid" id="projectGrid">
+          <button class="project-card project-one" type="button" data-project="social" data-category="graphic">
+            <img src="images/social-media-01.jpg" alt="Social media design project" loading="lazy">
+            <span class="project-overlay"><span class="project-number">01 / GRAPHIC DESIGN</span><strong>Social Media Design</strong><span>Campaigns · Digital creatives ↗</span></span>
+          </button>
+          <button class="project-card project-two" type="button" data-project="branding" data-category="branding">
+            <img src="images/branding-01.jpg" alt="Logo and brand identity project" loading="lazy">
+            <span class="project-overlay"><span class="project-number">02 / BRANDING</span><strong>Logo & Branding</strong><span>Identity · Visual systems ↗</span></span>
+          </button>
+          <button class="project-card project-three" type="button" data-project="youtube" data-category="graphic">
+            <img src="images/youtube-thumbnail-01.jpg" alt="YouTube thumbnail design project" loading="lazy">
+            <span class="project-overlay"><span class="project-number">03 / GRAPHIC DESIGN</span><strong>YouTube Thumbnails</strong><span>Education · Content design ↗</span></span>
+          </button>
+          <button class="project-card project-four" type="button" data-project="video" data-category="video">
+            <img src="images/video-editing-01.jpg" alt="Video editing project cover" loading="lazy">
+            <span class="project-overlay"><span class="project-number">04 / VIDEO</span><strong>Video Editing</strong><span>YouTube · Social video ↗</span></span>
+          </button>
+          <button class="project-card project-five" type="button" data-project="motion" data-category="video">
+            <img src="images/motion-graphics-01.jpg" alt="Motion graphics project cover" loading="lazy">
+            <span class="project-overlay"><span class="project-number">05 / MOTION</span><strong>Motion Graphics</strong><span>Animation · Titles ↗</span></span>
+          </button>
+          <button class="project-card project-six" type="button" data-project="editorial" data-category="graphic">
+            <img src="images/book-cover-01.jpg" alt="Book cover and editorial design project" loading="lazy">
+            <span class="project-overlay"><span class="project-number">06 / EDITORIAL</span><strong>Book & Print Design</strong><span>Book covers · Layouts ↗</span></span>
+          </button>
+        </div>
+        <p class="project-note">These are project categories and image placeholders. Replace them with your own finished work before publishing.</p>
+
+        <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+          <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+          <div class="dialog-content">
+            <p class="eyebrow" id="dialogCategory">PROJECT DETAILS</p>
+            <h2 id="dialogTitle">Project title</h2>
+            <p class="dialog-description" id="dialogDescription"></p>
+            <div class="dialog-meta">
+              <div><span>MY ROLE</span><strong id="dialogRole"></strong></div>
+              <div><span>TOOLS</span><strong id="dialogTools"></strong></div>
+            </div>
+            <div class="dialog-gallery" id="dialogGallery"></div>
+            <div class="dialog-video-wrap" id="dialogVideoWrap" hidden>
+              <video id="dialogVideo" controls playsinline preload="metadata"></video>
+            </div>
+          </div>
+        </dialog>
       </div>
     </section>
 
